@@ -3,7 +3,7 @@ import { Fragment } from 'react/jsx-runtime';
 
 import './navigation.styles.scss';
 
-import { ReactComponent as CrwnLogo } from '../../../assets/crown.svg';
+import { ReactComponent as CrwnLogo } from '../../assets/crown.svg'
 
 const Navigation = () => {
     return (
@@ -16,7 +16,7 @@ const Navigation = () => {
                     <Link className='nav-link' to='/shop'>
                         SHOP
                     </Link>
-                    <Link className='nav-link' to='/sign-in'>
+                    <Link className='nav-link' to='/auth'>
                         SIGN IN
                     </Link>
                 </div>

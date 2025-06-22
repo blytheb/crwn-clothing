@@ -1,4 +1,4 @@
-import Directory from '../../directory/directory.component';
+import Directory from '../../component/directory/directory.component';
 
 function Home() {
 
